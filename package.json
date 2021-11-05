@@ -1,0 +1,22 @@
+{
+  "name": "wreckapp",
+  "version": "1.0.0",
+  "description": "Application for learning React from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongzhixian/wreckApp.git"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Zhixian Ong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongzhixian/wreckApp/issues"
+  },
+  "homepage": "https://github.com/ongzhixian/wreckApp#readme"
+}
