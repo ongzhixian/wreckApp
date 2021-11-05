@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/ongzhixian/wreckApp/issues"
   },
-  "homepage": "https://github.com/ongzhixian/wreckApp#readme"
+  "homepage": "https://github.com/ongzhixian/wreckApp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
+  }
 }
