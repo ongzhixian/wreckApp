@@ -1,5 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
 .App {
-    margin: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rebeccapurple;
+    /* margin: 1rem; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color:#222;
+}
+
+.brand {
+    font-family: 'Romanesco', cursive;
+    margin-right: 1rem;
+    font-size: 2.67em;
+}
+
+.prose {
+    margin: 0 1in;
+}
+.prose p {
+    text-indent:.67in;
 }
