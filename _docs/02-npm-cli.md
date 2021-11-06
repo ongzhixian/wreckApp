@@ -5,8 +5,14 @@
 npm init
 npm install --save-dev @babel/core  @babel/cli @babel/preset-env @babel/preset-react
 npm install --save-dev webpack webpack-cli webpack-dev-server
-npm install --save-dev style-loader css-loader babel-loader
+npm install --save-dev babel-loader style-loader css-loader
+npm install --save-dev react-hot-loader
 
+npm install react react-dom
+npm install react-router react-router-dom
+
+npm install primereact primeicons react-transition-group
+npm install primeflex
 
 ## Components
 
@@ -30,8 +36,6 @@ Packages:
         style-loader        -- Inject CSS to DOM
         css-loader          -- Process CSS to generate resolved dependencies CSS code
         babel-loader        -- Loads ES2015+ code and transpiles to ES5 using Babel
-
-
     
     Typescript
 
