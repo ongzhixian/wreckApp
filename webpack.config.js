@@ -11,13 +11,12 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: "babel-loader",
         options: { presets: ["@babel/env"] }
-      }
+      },
       // Comment out; not using style or css loader
-    //   ,
-    //   {
-    //     test: /\.css$/,
-    //     use: ["style-loader", "css-loader"]
-    //   }
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
     ]
   },
 
