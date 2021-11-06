@@ -4,7 +4,8 @@
   "description": "Application for learning React from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,11 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   }
 }
